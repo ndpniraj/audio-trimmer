@@ -1,0 +1,1 @@
+ const cmd = `-i ${filePath} -af asetnsamples=${samples},astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level:file=${outputPath} -f null -`;
